@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header id="blog-header">
+        <figure>
+            <i class="fa-solid fa-code logo"></i>
+        </figure>
+        <i class="fas fa-bars fa-3x bar" id="menu-icon2"></i>
+        <nav id="menu-icon" class="hidden">
+            <ul>
+                <li>
+                    <a href="#banner-section" class="nav__link">Home</a>
+                </li>
+                <li>
+                    <a href="#about-section" class="nav__link">About</a>
+                </li>
+                <li>
+                    <a href="#archieve-section" class="nav__link">Archieves</a>
+                </li>
+                <li>
+                    <a href="#blogposts-section" class="nav__link">Blog Posts</a>
+                </li>
+                <li>
+                    <a href="#contact-section" class="nav__link">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Banner Section-->
+        <section id="banner-section" class="banner">
+            <article>
+                <h1 class="banner__heading">Web Development</h1>
+                <p class="banner__desc">Unleash the power of web development to create immersive digital experiences.
+                    From sleek, responsive designs to robust, scalable applications, our expertise turns your ideas into
+                    engaging, interactive websites that captivate your audience and drive your success.</p>
+            </article>
+            <aside>
+                <img src="img/banner-photo.jpg" alt="laptop picture" class="banner__img">
+            </aside>
+        </section>
+        <!-- About me Section-->
+        <section id="about-section">
+            <h2 class="section__heading">About Me</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3 class="card__header">CodeAcademy</h3>
+                    <p class="card__desc">Completed a foundational course on HTML and CSS, learning the basics of web
+                        page structure and styling. Projects included creating personal webpages and responsive designs.
+                    </p>
+                    <button class="btn card__btn">Read More</button>
+                </div>
+                <div class="card">
+                    <h3 class="card__header">FreeCodeCamp</h3>
+                    <p class="card__desc">Studied the core concepts of JavaScript, including variables, functions,
+                        loops, and events. Built interactive web elements and simple web applications.</p>
+                    <button class="btn card__btn">Read More</button>
+                </div>
+                <div class="card">
+                    <h3 class="card__header">Udemy</h3>
+                    <p class="card__desc">Completed an intensive bootcamp covering both front-end and back-end
+                        development. Built several full-stack projects, including an e-commerce platform and a social
+                        networking site.</p>
+                    <button class="btn card__btn">Read More</button>
+                </div>
+            </div>
+        </section>
+        <!-- Archieve Section -->
+        <section id="archieve-section">
+            <h2 class="section__heading">Archieves</h2>
+            <div class="archives-container">
+                <ul class="archives__lists">
+                    <li class="archives__list">
+                        <img src="img/img-1.jpg" alt="laptop image" class="archieves__img">
+                    </li>
+                    <li class="archives__list">
+                        <img src="img/img-2.jpg" alt="laptop image" class="archieves__img">
+                    </li>
+                    <li class="archives__list">
+                        <img src="img/img-3.jpg" alt="laptop image" class="archieves__img">
+                    </li>
+                    <li class="archives__list">
+                        <img src="img/img-1.jpg" alt="laptop image" class="archieves__img">
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- Blog Posts Section-->
+        <section id="blogposts-section">
+            <h2 class="section__heading">Blog Posts</h2>
+            <div class="blog-posts">
+                <div class="blog-post">
+                    <aside class="blog-post__aside">
+                        <img src="img/img-1.jpg" alt="laptop image">
+                    </aside>
+                    <article class="blog-post__article">
+                        <h2 class="blog-post__heading">
+                            The Evolution of Web Development
+                        </h2>
+                        <h3 class="blog-post__subheading">
+                            HTML / CSS / JavaScript
+                        </h3>
+                        <p class="blog-post__desc">
+                            Web development has come a long way since the early days of static HTML pages. In the
+                            beginning, websites were simple, with minimal interactivity and basic design elements.
+                            However, the rise of technologies like JavaScript, CSS, and modern frameworks such as React,
+                            Angular, and Vue.js has revolutionized the field.
+                        </p>
+                        <button class="btn blog-post__button">Learn More</button>
+                    </article>
+                </div>
+                <div class="blog-post">
+                    <aside class="blog-post__aside">
+                        <img src="img/img-2.jpg" alt="laptop image">
+                    </aside>
+                    <article class="blog-post__article">
+                        <h2 class="blog-post__heading">
+                            The Importance of Responsive Design
+                        </h2>
+                        <h3 class="blog-post__subheading">
+                            SEO / Media Queries
+                        </h3>
+                        <p class="blog-post__desc">
+                            In today's mobile-first world, responsive design is a crucial aspect of web development.
+                            With a significant percentage of users accessing websites via smartphones and tablets,
+                            ensuring that a website looks and functions well across various devices is essential.
+                        </p>
+                        <button class="blog-post__button">Learn More</button>
+                    </article>
+                </div>
+                <div class="blog-post">
+                    <aside class="blog-post__aside">
+                        <img src="img/img-3.jpg" alt="laptop image">
+                    </aside>
+                    <article class="blog-post__article">
+                        <h2 class="blog-post__heading">
+                            Web Development in Digital Marketing
+                        </h2>
+                        <h3 class="blog-post__subheading">
+                            Social Media / Analytics
+                        </h3>
+                        <p class="blog-post__desc">
+                            Integrating analytics tools within a website allows marketers to track user behavior and
+                            measure the effectiveness of their campaigns. By aligning web development with digital
+                            marketing goals, businesses can create a robust online presence that drives traffic and
+                            generates leads.
+                        </p>
+                        <button class="btn blog-post__button">Learn More</button>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!-- Contact Section-->
+        <section id="contact-section">
+            <h2 class="section__heading">Contact Me</h2>
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit" class="contact__button">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p class="copyright__text">
+            Copyright &copy; by Tuğçe Kızıldağ. All rights reserved
+        </p>
+        <nav>
+            <a href="https://github.com/tugcekizildg" target="blank">
+                <i class="fab fa-github footer__icon"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/tuğçe-kızıldağ-6b6a46292/" target="blank">
+                <i class="fab fa-linkedin footer__icon"></i>
+            </a>
+            <a href="https://www.freecodecamp.org/tugcekizildg">
+                <i class="fa-brands fa-free-code-camp footer__icon"></i>
+            </a>
+        </nav>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
